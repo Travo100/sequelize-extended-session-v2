@@ -1,0 +1,34 @@
+{
+  "name": "sequelize-extended-session",
+  "version": "1.0.0",
+  "description": "A sequelize extended session for the coding boot camp at UCSD",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Travo100/sequelize-extended-session.git"
+  },
+  "keywords": [
+    "sequelize",
+    "coding",
+    "boot",
+    "camp",
+    "ucsd",
+    "node",
+    "express"
+  ],
+  "author": "Travis Thompson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Travo100/sequelize-extended-session/issues"
+  },
+  "homepage": "https://github.com/Travo100/sequelize-extended-session#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.6.4",
+    "sequelize": "^4.42.0"
+  }
+}
