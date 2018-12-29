@@ -6,7 +6,7 @@ $(document).ready(function(){
                 $("tbody").empty();
                 for(var i = 0; i < data.length; i++) {
                     var tr = $("<tr>");
-                    tr.append(`<td>${data[i].id}</td><td>${data[i].email}</td><td>${data[i].password}</td><td>${data[i].luckyNumber}</td>`);
+                    tr.append(`<td>${data[i].id}</td><td>${data[i].email}</td><td>${data[i].password}</td><td>${data[i].luckyNumber}</td><td><a href="/task/${data[i].id}">See Tasks</a></td>`);
                     $("tbody").append(tr);
                 }
             }

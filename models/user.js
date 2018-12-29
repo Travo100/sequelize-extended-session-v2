@@ -4,5 +4,10 @@ module.exports = function(sequelize, DataTypes) {
         password: DataTypes.STRING,
         luckyNumber: DataTypes.INTEGER
     });
+
+    User.associate = function(models) {
+        models.User.hasMany(models.Task);
+    }
+    
     return User;
 }
